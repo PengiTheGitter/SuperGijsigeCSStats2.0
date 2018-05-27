@@ -14,7 +14,4 @@ Welkom check deze superstoere README.md dan.
 9. Ga niet zeiken
 
 # EDIT
-Gijs de Jonge, [27 mei 2018 14:58:33]:
-PANIEK
-
-je moet nog Clossd veranderen in je eigen naam in de code
+![oeps](https://i.imgur.com/SgByL3O.png)
