@@ -12,3 +12,9 @@ Welkom check deze superstoere README.md dan.
 7. Plak het in de console
 8. Enter
 9. Ga niet zeiken
+
+# EDIT
+Gijs de Jonge, [27 mei 2018 14:58:33]:
+PANIEK
+
+je moet nog Clossd veranderen in je eigen naam in de code
