@@ -215,3 +215,30 @@ jQuery('html, body').animate({
     scrollTop: cyka.offset().top
 }, 100);
 // END
+
+
+// Aantal 30 bombs
+var amount = 0;
+jQuery('.csgo_scoreboard_inner_right').each(function() {
+	var table = jQuery(this);
+
+	table.find('tr:not(:first)').each(function() {
+		var el = jQuery(this);
+		var html = el.find('.inner_name').find('.playerNickname').find('a').html();
+
+		if(html == 'Clossd') {
+			var curr = el.find('td:nth-child(3)').html();
+
+			if(parseInt(curr) >= parseInt(30)) {
+				amount++;
+			}
+		}
+	});
+});
+
+console.log(amount);
+
+jQuery('html, body').animate({
+    scrollTop: cyka.offset().top
+}, 100);
+// END
